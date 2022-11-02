@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Monster : MonoBehaviour
 {
+    private float hp = 100f;
     // Start is called before the first frame update
     void Start()
     {
@@ -19,7 +20,13 @@ public class Monster : MonoBehaviour
     {
         if (other.tag == "bullet")
         {
-            Destroy(gameObject);
+            hp -= 25;
+
+            if (hp <= 0)
+            {
+                gameObject.SetActive(false);
+                Destroy(gameObject);
+            }
         }
     }
 }
