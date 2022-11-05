@@ -20,7 +20,7 @@ public class Monster : MonoBehaviour
     {
         if (other.tag == "bullet")
         {
-            Bullet bullet = other.GetComponent<Bullet>();
+            Destroy(other.gameObject);
 
             hp -= Bullet.atk;
 
