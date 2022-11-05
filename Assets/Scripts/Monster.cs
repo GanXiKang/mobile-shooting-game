@@ -28,6 +28,7 @@ public class Monster : MonoBehaviour
             {
                 gameObject.SetActive(false);
                 Destroy(gameObject);
+                //CoinGenerate.coinGenerate++;
             }
         }
     }
