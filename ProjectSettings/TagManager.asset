@@ -8,6 +8,8 @@ TagManager:
   - Enemy
   - bullet
   - wall
+  - box
+  - treasureChest
   layers:
   - Default
   - TransparentFX

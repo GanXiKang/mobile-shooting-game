@@ -12,7 +12,7 @@ public class EnemyMove_WS : MonoBehaviour
 
         if (timer < 500f)
         {
-            transform.position = new Vector3(transform.position.x, transform.position.y, transform.position.z + 3f * Time.deltaTime);
+            transform.position = new Vector3(transform.position.x , transform.position.y, transform.position.z + 3f * Time.deltaTime);
 
             Quaternion targetRotation = Quaternion.Euler(0, 0, 0);
             transform.rotation = Quaternion.Lerp(transform.rotation, targetRotation, 0.3f);
@@ -20,7 +20,7 @@ public class EnemyMove_WS : MonoBehaviour
         }
         if (timer > 500f && timer < 1000f)
         {
-            transform.position = new Vector3(transform.position.x, transform.position.y, transform.position.z - 3f * Time.deltaTime);
+            transform.position = new Vector3(transform.position.x , transform.position.y, transform.position.z - 3f * Time.deltaTime);
 
             Quaternion targetRotation = Quaternion.Euler(0, 180, 0);
             transform.rotation = Quaternion.Lerp(transform.rotation, targetRotation, 0.3f);
