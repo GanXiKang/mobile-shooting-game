@@ -41,12 +41,6 @@ public class Player : MonoBehaviour
             }
         }
 
-
-
-        // 取得方向鍵輸入
-        // float h = Input.GetAxis("Horizontal");
-        // float v = Input.GetAxis("Vertical");
-
         // 取得虛擬搖桿輸入
         float h = joyStick.Horizontal;
         float v = joyStick.Vertical;
