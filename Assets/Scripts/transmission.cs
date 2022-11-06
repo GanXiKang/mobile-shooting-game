@@ -8,10 +8,6 @@ public class transmission : MonoBehaviour
     public Transform player;
     bool istransm;
     
-    void Start()
-    {
-        
-    }
     void Update()
     {
         if (istransm == true)
