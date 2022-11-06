@@ -5,17 +5,7 @@ using UnityEngine;
 public class Monster : MonoBehaviour
 {
     private float hp = 100f;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
     private void OnTriggerEnter(Collider other)
     {
         if (other.tag == "bullet")
@@ -28,7 +18,6 @@ public class Monster : MonoBehaviour
             {
                 gameObject.SetActive(false);
                 Destroy(gameObject);
-                //CoinGenerate.coinGenerate++;
             }
         }
     }
