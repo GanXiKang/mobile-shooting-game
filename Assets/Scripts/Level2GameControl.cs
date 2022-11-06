@@ -18,7 +18,7 @@ public class Level2GameControl : MonoBehaviour
 
         if (enemys.Length == 0)
         {
-            SceneManager.LoadScene(1);
+            SceneManager.LoadScene(2);
         }
         if (Input.GetKey("f1"))
         {
