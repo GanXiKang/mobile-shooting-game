@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class NextLevel2 : MonoBehaviour
+public class Level2GameControl : MonoBehaviour
 {
     // Start is called before the first frame update
     void Start()
@@ -17,6 +17,10 @@ public class NextLevel2 : MonoBehaviour
         GameObject[] enemys = GameObject.FindGameObjectsWithTag("Enemy");
 
         if (enemys.Length == 0)
+        {
+            SceneManager.LoadScene(1);
+        }
+        if (Input.GetKey("f1"))
         {
             SceneManager.LoadScene(1);
         }
