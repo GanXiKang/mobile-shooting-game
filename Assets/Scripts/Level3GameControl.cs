@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class Level1GameControl : MonoBehaviour
+public class Level3GameControl : MonoBehaviour
 {
     void Update()
     {
@@ -11,19 +11,16 @@ public class Level1GameControl : MonoBehaviour
 
         if (enemys.Length == 0)
         {
-            SceneManager.LoadScene(1);
+            SceneManager.LoadScene(3);
         }
         if (Input.GetKey("f1"))
         {
-            SceneManager.LoadScene(0);
+            SceneManager.LoadScene(2);
         }
-        if (Input.GetKey("escape"))
-        {
 #if UNITY_EDITOR
-            UnityEditor.EditorApplication.isPlaying = false;
+        UnityEditor.EditorApplication.isPlaying = false;
 #else
             Application.Quit();
 #endif
-        }
     }
 }
