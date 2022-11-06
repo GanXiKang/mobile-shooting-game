@@ -16,8 +16,7 @@ public class transmission : MonoBehaviour
     {
         if (istransm == true)
         {
-            Vector3 gogogo = transm.transform.position;
-            player.transform.position = gogogo;
+            player.transform.position = transm.transform.position;
         }
     }
     private void OnTriggerEnter(Collider other)
