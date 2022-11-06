@@ -17,10 +17,5 @@ public class Level3GameControl : MonoBehaviour
         {
             SceneManager.LoadScene(2);
         }
-#if UNITY_EDITOR
-        UnityEditor.EditorApplication.isPlaying = false;
-#else
-            Application.Quit();
-#endif
     }
 }

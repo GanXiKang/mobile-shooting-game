@@ -17,10 +17,5 @@ public class Level2GameControl : MonoBehaviour
         {
             SceneManager.LoadScene(1);
         }
-#if UNITY_EDITOR
-        UnityEditor.EditorApplication.isPlaying = false;
-#else
-            Application.Quit();
-#endif
     }
 }
