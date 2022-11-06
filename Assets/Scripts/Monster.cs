@@ -5,7 +5,31 @@ using UnityEngine;
 public class Monster : MonoBehaviour
 {
     private float hp = 100f;
+    private CharacterController controller;
 
+    public GameObject enemyBullet;
+    public GameObject enemyFirePoint;
+
+    void Start()
+    {
+        controller = GetComponent<CharacterController>();
+
+        StartCoroutine(KeepShooting());
+    }
+
+    void Fire()
+    {
+        Instantiate(enemyBullet, enemyFirePoint.transform.position, transform.rotation);
+    }
+    IEnumerator KeepShooting()
+    {
+        while (true)
+        {
+            Fire();
+
+            yield return new WaitForSeconds(1.5f);
+        }
+    }
     private void OnTriggerEnter(Collider other)
     {
         if (other.tag == "bullet")
