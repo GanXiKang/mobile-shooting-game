@@ -16,7 +16,11 @@ public class transmission : MonoBehaviour
     {
         if (istransm == true)
         {
-            player.transform.position = transm.transform.position;
+            print("Press T to teleport");
+            if (Input.GetKey("t"))
+            {
+                player.transform.position = transm.transform.position;
+            }
         }
     }
     private void OnTriggerEnter(Collider other)
