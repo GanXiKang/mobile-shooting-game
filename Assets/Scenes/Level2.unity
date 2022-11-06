@@ -4723,7 +4723,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   transm: {fileID: 1482492588}
-  player: {fileID: 387472099}
+  player: {fileID: 6890982093996993985, guid: 9e2fc4172778247bdbc295bf4e68ef79, type: 3}
 --- !u!1001 &1517626841
 PrefabInstance:
   m_ObjectHideFlags: 0
