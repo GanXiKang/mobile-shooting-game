@@ -24,5 +24,13 @@ public class Level1GameControl : MonoBehaviour
         {
             SceneManager.LoadScene(0);
         }
+        if (Input.GetKey("escape"))
+        {
+#if UNITY_EDITOR
+            UnityEditor.EditorApplication.isPlaying = false;
+#else
+            Application.Quit();
+#endif
+        }
     }
 }
