@@ -11,6 +11,8 @@ TagManager:
   - box
   - treasureChest
   - EnemyBullet
+  - trap
+  - nextLevelCube
   layers:
   - Default
   - TransparentFX
