@@ -7,6 +7,8 @@ public class Monster : MonoBehaviour
     private float hp = 100f;
 
     public GameObject enemyBullet;
+    public GameObject enemySmall;
+    public Transform enemyPoint;
     public Transform enemyFirePoint;
     public float timer = 0;
     public float timePeriod = 1f;
@@ -35,8 +37,9 @@ public class Monster : MonoBehaviour
 
             if (hp <= 0)
             {
-                gameObject.SetActive(false);
                 Destroy(gameObject);
+                Instantiate(enemySmall, enemyPoint.transform.position + new Vector3(1f, 0, 0), transform.rotation);
+                Instantiate(enemySmall, enemyPoint.transform.position + new Vector3(-1f, 0, 0), transform.rotation);
             }
         }
     }
