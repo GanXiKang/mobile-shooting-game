@@ -197,7 +197,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyBullet: {fileID: 0}
-  enemySmall: {fileID: 168856881545491931}
+  enemySmall: {fileID: 0}
   enemyPoint: {fileID: 206050677}
   enemyFirePoint: {fileID: 1356887519}
   target: {fileID: 0}
