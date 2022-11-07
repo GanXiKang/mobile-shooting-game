@@ -11,11 +11,10 @@ public class Boss : MonoBehaviour
     public Transform enemyFirePoint;
     public Transform enemyFirePoint1;
     public Transform enemyFirePoint2;
-    public Transform enemyFirePoint3;
 
     public static float speed = 5f;
     public float timer = 0;
-    public float timePeriod = 0.8f;
+    public float timePeriod = 3f;
 
     void Update()
     {
@@ -26,7 +25,6 @@ public class Boss : MonoBehaviour
             Instantiate(enemyBullet, enemyFirePoint.transform.position, transform.rotation);
             Instantiate(enemyBullet, enemyFirePoint1.transform.position, transform.rotation);
             Instantiate(enemyBullet, enemyFirePoint2.transform.position, transform.rotation);
-            Instantiate(enemyBullet, enemyFirePoint3.transform.position, transform.rotation);
             timer = 0;
         }
     }

@@ -108,6 +108,11 @@ public class Player : MonoBehaviour
             hp -= EnemyBullet.atk;
             Destroy(other.gameObject);
         }
+        if (other.tag == "BossBullet")
+        {
+            hp -= BossBullet.atk;
+            Destroy(other.gameObject);
+        }
         if (other.tag == "trap")
         {
             int a = Random.Range(8, 12);

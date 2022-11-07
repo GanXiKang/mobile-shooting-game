@@ -13,11 +13,11 @@ GameObject:
   - component: {fileID: 4091699068711757859}
   - component: {fileID: 8756119964736991910}
   - component: {fileID: 3565511665829762692}
-  - component: {fileID: -6143298755183311006}
   - component: {fileID: -8793272299032404267}
+  - component: {fileID: -3128176168308495705}
   m_Layer: 0
-  m_Name: EnemyBullet
-  m_TagString: EnemyBullet
+  m_Name: BossBullet
+  m_TagString: BossBullet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -172,7 +172,7 @@ TrailRenderer:
       m_RotationOrder: 4
     colorGradient:
       serializedVersion: 2
-      key0: {r: 0.8396226, g: 0.35169095, b: 0.35169095, a: 1}
+      key0: {r: 0.9811321, g: 0.79898757, b: 0.17956562, a: 1}
       key1: {r: 1, g: 1, b: 1, a: 1}
       key2: {r: 0, g: 0, b: 0, a: 0}
       key3: {r: 0, g: 0, b: 0, a: 0}
@@ -208,19 +208,6 @@ TrailRenderer:
   m_MinVertexDistance: 0.1
   m_Autodestruct: 0
   m_Emitting: 1
---- !u!114 &-6143298755183311006
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1573241354133326669}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2d940728285b9044989d2d082e4ce51f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 15
 --- !u!54 &-8793272299032404267
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -237,3 +224,16 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &-3128176168308495705
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1573241354133326669}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 232206e554057c84b9dd0885b5214ea2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 20

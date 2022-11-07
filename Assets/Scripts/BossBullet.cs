@@ -2,10 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class EnemyBullet : MonoBehaviour
+public class BossBullet : MonoBehaviour
 {
-    public static float atk = 10;
-    public float speed = 15f;
+    public static float atk = 20f;
+    public float speed = 20f;
     private Rigidbody rb;
 
     void Start()
@@ -14,4 +14,3 @@ public class EnemyBullet : MonoBehaviour
         rb.velocity = transform.forward * speed;
     }
 }
-

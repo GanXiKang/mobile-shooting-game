@@ -9,11 +9,7 @@ public class TreasureChest : MonoBehaviour
     public GameObject Point;
 
     private float hp = 200f;
-    
-    void Update()
-    {
-        
-    }
+
     private void OnTriggerEnter(Collider other)
     {
         if (other.tag == "bullet")
