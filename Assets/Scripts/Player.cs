@@ -106,11 +106,15 @@ public class Player : MonoBehaviour
         {
             hp -= EnemyBullet.atk;
             Destroy(other.gameObject);
-
-            if (hp == 0) 
-            {
-                gameObject.SetActive(false);
-            }
+        }
+        if (other.tag == "trap")
+        {
+            hp -= Trap.atk;
+            print("-" + Trap.atk + "HP");
+        }
+        if (hp <= 0)
+        {
+            gameObject.SetActive(false);
         }
     }
 }
