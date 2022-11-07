@@ -109,8 +109,9 @@ public class Player : MonoBehaviour
         }
         if (other.tag == "trap")
         {
-            hp -= Trap.atk;
-            print("-" + Trap.atk + "HP");
+            int a = Random.Range(8, 12);
+            hp -= a;
+            print("-" + a + "HP");
         }
         if (hp <= 0)
         {
