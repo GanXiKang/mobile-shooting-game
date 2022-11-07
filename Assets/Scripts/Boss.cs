@@ -12,7 +12,6 @@ public class Boss : MonoBehaviour
     public Transform enemyFirePoint1;
     public Transform enemyFirePoint2;
     public Transform enemyFirePoint3;
-    public Transform target;
 
     public static float speed = 5f;
     public float timer = 0;
@@ -30,9 +29,6 @@ public class Boss : MonoBehaviour
             Instantiate(enemyBullet, enemyFirePoint3.transform.position, transform.rotation);
             timer = 0;
         }
-
-        var tr = Quaternion.LookRotation(target.transform.position - transform.position);
-        transform.rotation = Quaternion.Slerp(tr, transform.rotation, speed * Time.deltaTime);
     }
     private void OnTriggerEnter(Collider other)
     {
