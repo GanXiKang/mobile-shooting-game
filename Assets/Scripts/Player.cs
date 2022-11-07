@@ -12,6 +12,7 @@ public class Player : MonoBehaviour
 
     private CharacterController controller;
     private GameObject focusEnemy;
+
     private float hp = 100;
 
     void Start()
@@ -112,6 +113,12 @@ public class Player : MonoBehaviour
             int a = Random.Range(8, 12);
             hp -= a;
             print("-" + a + "HP");
+        }
+        if (other.tag == "jiaHP")
+        {
+            Destroy(other.gameObject);
+            hp = 100;
+            print("+HP");
         }
         if (hp <= 0)
         {
