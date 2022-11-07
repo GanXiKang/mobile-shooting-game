@@ -14,5 +14,9 @@ public class Wall : MonoBehaviour
         {
             Destroy(other.gameObject);
         }
+        if (other.tag == "BossBullet")
+        {
+            Destroy(other.gameObject);
+        }
     }
 }
