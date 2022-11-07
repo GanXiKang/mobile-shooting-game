@@ -10,5 +10,9 @@ public class Wall : MonoBehaviour
         {
             Destroy(other.gameObject);
         }
+        if (other.tag == "EnemyBullet") 
+        {
+            Destroy(other.gameObject);
+        }
     }
 }

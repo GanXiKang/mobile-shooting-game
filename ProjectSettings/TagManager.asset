@@ -10,6 +10,7 @@ TagManager:
   - wall
   - box
   - treasureChest
+  - EnemyBullet
   layers:
   - Default
   - TransparentFX

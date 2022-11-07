@@ -250,23 +250,6 @@ Transform:
   m_Father: {fileID: 1721997930}
   m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &48010184 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 168856881545491931, guid: 7253147593ff04020937f085a5695485, type: 3}
-  m_PrefabInstance: {fileID: 1091268307}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &48010190
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 48010184}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 862a9df2c5ff6ab4da451e4fd0b5531e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &83879537
 GameObject:
   m_ObjectHideFlags: 0
@@ -2425,6 +2408,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2099649106, guid: 7253147593ff04020937f085a5695485, type: 3}
+      propertyPath: enemyBullet
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 168856881545491931, guid: 7253147593ff04020937f085a5695485, type: 3}
       propertyPath: m_Name
       value: Enemy (1)
@@ -2960,6 +2947,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2099649106, guid: 7253147593ff04020937f085a5695485, type: 3}
+      propertyPath: enemyBullet
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 168856881545491931, guid: 7253147593ff04020937f085a5695485, type: 3}
       propertyPath: m_Name
       value: Enemy (2)
@@ -3777,7 +3768,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1541954022
 PrefabInstance:
@@ -4966,23 +4957,6 @@ Transform:
   m_Father: {fileID: 1721997930}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &2052819589 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 168856881545491931, guid: 7253147593ff04020937f085a5695485, type: 3}
-  m_PrefabInstance: {fileID: 844524890}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &2052819595
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2052819589}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 862a9df2c5ff6ab4da451e4fd0b5531e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &2060077384
 GameObject:
   m_ObjectHideFlags: 0
@@ -5227,13 +5201,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2099649106, guid: 7253147593ff04020937f085a5695485, type: 3}
+      propertyPath: enemyBullet
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 168856881545491931, guid: 7253147593ff04020937f085a5695485, type: 3}
       propertyPath: m_Name
       value: Enemy
       objectReference: {fileID: 0}
     - target: {fileID: 3858752723951894105, guid: 7253147593ff04020937f085a5695485, type: 3}
       propertyPath: m_RootOrder
-      value: 7
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 3858752723951894105, guid: 7253147593ff04020937f085a5695485, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5275,5 +5253,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: 7253147593ff04020937f085a5695485, type: 3}
