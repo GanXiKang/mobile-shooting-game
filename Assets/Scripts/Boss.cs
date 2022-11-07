@@ -16,7 +16,7 @@ public class Boss : MonoBehaviour
 
     public static float speed = 5f;
     public float timer = 0;
-    public float timePeriod = 1f;
+    public float timePeriod = 0.8f;
 
     void Update()
     {
