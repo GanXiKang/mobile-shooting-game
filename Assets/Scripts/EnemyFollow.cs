@@ -5,15 +5,7 @@ using UnityEngine;
 public class EnemyFollow : MonoBehaviour
 {
     public Transform target;
-
     public float speed = 5f;
-
-    void Start()
-    {
-
-    }
-
-
     void Update()
     {
         var tr = Quaternion.LookRotation(target.transform.position - transform.position);

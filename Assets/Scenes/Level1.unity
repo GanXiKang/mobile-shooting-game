@@ -2409,6 +2409,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 2099649106, guid: 7253147593ff04020937f085a5695485, type: 3}
+      propertyPath: target
+      value: 
+      objectReference: {fileID: 387472099}
+    - target: {fileID: 2099649106, guid: 7253147593ff04020937f085a5695485, type: 3}
       propertyPath: enemyBullet
       value: 
       objectReference: {fileID: 0}
@@ -2947,6 +2951,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2099649106, guid: 7253147593ff04020937f085a5695485, type: 3}
+      propertyPath: target
+      value: 
+      objectReference: {fileID: 387472099}
     - target: {fileID: 2099649106, guid: 7253147593ff04020937f085a5695485, type: 3}
       propertyPath: enemyBullet
       value: 
@@ -5202,9 +5210,9 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 2099649106, guid: 7253147593ff04020937f085a5695485, type: 3}
-      propertyPath: enemyBullet
+      propertyPath: target
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 387472099}
     - target: {fileID: 168856881545491931, guid: 7253147593ff04020937f085a5695485, type: 3}
       propertyPath: m_Name
       value: Enemy
@@ -5253,6 +5261,5 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 0}
+    m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7253147593ff04020937f085a5695485, type: 3}

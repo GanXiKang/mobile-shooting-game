@@ -8,15 +8,15 @@ public class Monster : MonoBehaviour
 
     public GameObject enemyBullet;
     public GameObject enemySmall;
+
     public Transform enemyPoint;
     public Transform enemyFirePoint;
+    public Transform target;
+
+    public static float speed = 5f;
     public float timer = 0;
     public float timePeriod = 1f;
 
-    void Start()
-    {
-
-    }
     void Update()
     {
         timer += Time.deltaTime;
@@ -26,6 +26,9 @@ public class Monster : MonoBehaviour
             Instantiate(enemyBullet, enemyFirePoint.transform.position, transform.rotation);
             timer = 0;
         }
+
+        var tr = Quaternion.LookRotation(target.transform.position - transform.position);
+        transform.rotation = Quaternion.Slerp(tr, transform.rotation, speed * Time.deltaTime);
     }
     private void OnTriggerEnter(Collider other)
     {
