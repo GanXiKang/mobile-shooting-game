@@ -291,7 +291,7 @@ PrefabInstance:
     - target: {fileID: 2099649106, guid: 7253147593ff04020937f085a5695485, type: 3}
       propertyPath: target
       value: 
-      objectReference: {fileID: 387472099}
+      objectReference: {fileID: 0}
     - target: {fileID: 2099649106, guid: 7253147593ff04020937f085a5695485, type: 3}
       propertyPath: enemyBullet
       value: 
@@ -655,7 +655,7 @@ PrefabInstance:
     - target: {fileID: 2099649106, guid: 7253147593ff04020937f085a5695485, type: 3}
       propertyPath: target
       value: 
-      objectReference: {fileID: 387472099}
+      objectReference: {fileID: 0}
     - target: {fileID: 2099649106, guid: 7253147593ff04020937f085a5695485, type: 3}
       propertyPath: enemyBullet
       value: 
@@ -986,7 +986,7 @@ PrefabInstance:
     - target: {fileID: 2099649106, guid: 7253147593ff04020937f085a5695485, type: 3}
       propertyPath: target
       value: 
-      objectReference: {fileID: 387472099}
+      objectReference: {fileID: 0}
     - target: {fileID: 2099649106, guid: 7253147593ff04020937f085a5695485, type: 3}
       propertyPath: enemyBullet
       value: 
@@ -1819,7 +1819,7 @@ PrefabInstance:
     - target: {fileID: 2099649106, guid: 7253147593ff04020937f085a5695485, type: 3}
       propertyPath: target
       value: 
-      objectReference: {fileID: 387472099}
+      objectReference: {fileID: 0}
     - target: {fileID: 2099649106, guid: 7253147593ff04020937f085a5695485, type: 3}
       propertyPath: enemyBullet
       value: 
@@ -2055,7 +2055,7 @@ PrefabInstance:
     - target: {fileID: 2099649106, guid: 7253147593ff04020937f085a5695485, type: 3}
       propertyPath: target
       value: 
-      objectReference: {fileID: 387472099}
+      objectReference: {fileID: 0}
     - target: {fileID: 2099649106, guid: 7253147593ff04020937f085a5695485, type: 3}
       propertyPath: enemyBullet
       value: 
@@ -3911,7 +3911,7 @@ PrefabInstance:
     - target: {fileID: 2099649106, guid: 7253147593ff04020937f085a5695485, type: 3}
       propertyPath: target
       value: 
-      objectReference: {fileID: 387472099}
+      objectReference: {fileID: 0}
     - target: {fileID: 2099649106, guid: 7253147593ff04020937f085a5695485, type: 3}
       propertyPath: enemyBullet
       value: 
