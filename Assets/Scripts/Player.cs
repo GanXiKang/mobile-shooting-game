@@ -11,8 +11,8 @@ public class Player : MonoBehaviour
     public GameObject bulletPrefab;
 
     private CharacterController controller;
-
     private GameObject focusEnemy;
+    private float hp = 100;
 
     void Start()
     {
@@ -97,6 +97,20 @@ public class Player : MonoBehaviour
 
             // 暫停 0.5 秒
             yield return new WaitForSeconds(0.5f);
+        }
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.tag == "EnemyBullet")
+        {
+            hp -= EnemyBullet.atk;
+            Destroy(other.gameObject);
+
+            if (hp == 0) 
+            {
+                gameObject.SetActive(false);
+            }
         }
     }
 }

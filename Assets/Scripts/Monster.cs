@@ -5,29 +5,24 @@ using UnityEngine;
 public class Monster : MonoBehaviour
 {
     private float hp = 100f;
-    private CharacterController controller;
 
     public GameObject enemyBullet;
-    public GameObject enemyFirePoint;
+    public Transform enemyFirePoint;
+    public float timer = 0;
+    public float timePeriod = 1f;
 
     void Start()
     {
-        controller = GetComponent<CharacterController>();
 
-        StartCoroutine(KeepShooting());
     }
+    void Update()
+    {
+        timer += Time.deltaTime;
 
-    void Fire()
-    {
-        Instantiate(enemyBullet, enemyFirePoint.transform.position, transform.rotation);
-    }
-    IEnumerator KeepShooting()
-    {
-        while (true)
+        if (timer >= timePeriod)
         {
-            Fire();
-
-            yield return new WaitForSeconds(1.5f);
+            Instantiate(enemyBullet, enemyFirePoint.transform.position, transform.rotation);
+            timer = 0;
         }
     }
     private void OnTriggerEnter(Collider other)
