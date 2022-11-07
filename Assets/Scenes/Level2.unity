@@ -616,7 +616,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   coin: {fileID: 5708182090643071376, guid: 032cd52ad3768584da446022b411b155, type: 3}
-  coinPoint: {fileID: 1965481000}
+  Hp: {fileID: 0}
+  Point: {fileID: 1965481000}
 --- !u!65 &363138650
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5430,7 +5431,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1965481001}
   m_Layer: 0
-  m_Name: CoinPoint
+  m_Name: Point
   m_TagString: Untagged
   m_Icon: {fileID: 3936346786652291628, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0

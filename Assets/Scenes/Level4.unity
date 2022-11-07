@@ -263,7 +263,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21886c33701151244928238b58d77a31, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  coin: {fileID: 0}
+  coin: {fileID: 5708182090643071376, guid: 032cd52ad3768584da446022b411b155, type: 3}
   Hp: {fileID: 8900657092793634968, guid: d54da54f827340346876a4e30f6a13a1, type: 3}
   Point: {fileID: 1008197188}
 --- !u!65 &57688954
