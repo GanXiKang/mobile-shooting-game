@@ -8,7 +8,7 @@ public class TreasureChest : MonoBehaviour
     public GameObject Hp;
     public GameObject Point;
 
-    private float hp = 200f;
+    private float hp = 150f;
 
     private void OnTriggerEnter(Collider other)
     {
