@@ -18,6 +18,7 @@ public class HeartControl : MonoBehaviour
 
         if (heart <= 0) 
         {
+            heart = 0;
             LoseText.SetActive(true);
             RestartText.SetActive(true);
         }
