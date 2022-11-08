@@ -14,11 +14,11 @@ public class Level5GameControl : MonoBehaviour
 
         if (enemys.Length == 0)
         {
-            SceneManager.LoadScene(0);
+            SceneManager.LoadScene(6);
         }
         if (Input.GetKey("f1"))
         {
-            SceneManager.LoadScene(4);
+            SceneManager.LoadScene(5);
             CoinScore.Score = CoinScore.LV4TotalScore;
             HeartControl.heart = HeartControl.LV4TotalHeart;
         }
