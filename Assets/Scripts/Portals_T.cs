@@ -6,15 +6,16 @@ public class Portals_T : MonoBehaviour
 {
     public Transform transm;
     public Transform player;
+
     bool istransm;
 
     void Update()
     {
         if (istransm == true)
         {
-            print("Press T to teleport");
             if (Input.GetKey("t"))
             {
+
                 player.transform.position = transm.transform.position;
             }
         }
