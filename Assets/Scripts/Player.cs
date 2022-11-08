@@ -120,7 +120,6 @@ public class Player : MonoBehaviour
             int a = Random.Range(8, 12);
             hp -= a;
             HeartControl.heart -= a;
-            print("-" + a + "HP");
         }
         if (other.tag == "jiaHP")
         {
