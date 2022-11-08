@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Boss : MonoBehaviour
 {
-    private float hp = 300f;
+    private float hp = 325f;
 
     public GameObject enemyBullet;
 
