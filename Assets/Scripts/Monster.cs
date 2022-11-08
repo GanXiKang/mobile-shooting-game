@@ -41,6 +41,7 @@ public class Monster : MonoBehaviour
             if (hp <= 0)
             {
                 Destroy(gameObject);
+                CoinScore.Score += 3;
                 Instantiate(enemySmall, enemyPoint.transform.position + new Vector3(1f, 0, 0), transform.rotation);
                 Instantiate(enemySmall, enemyPoint.transform.position + new Vector3(-1f, 0, 0), transform.rotation);
             }

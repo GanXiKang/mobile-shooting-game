@@ -21,6 +21,7 @@ public class Coin : MonoBehaviour
         if (other.tag == "Player") 
         {
             Destroy(gameObject);
+            CoinScore.Score += 5;
         }
     }
 }
