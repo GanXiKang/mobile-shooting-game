@@ -106,23 +106,27 @@ public class Player : MonoBehaviour
         if (other.tag == "EnemyBullet")
         {
             hp -= EnemyBullet.atk;
+            HeartControl.heart -= EnemyBullet.atk;
             Destroy(other.gameObject);
         }
         if (other.tag == "BossBullet")
         {
             hp -= BossBullet.atk;
+            HeartControl.heart -= BossBullet.atk;
             Destroy(other.gameObject);
         }
         if (other.tag == "trap")
         {
             int a = Random.Range(8, 12);
             hp -= a;
+            HeartControl.heart -= a;
             print("-" + a + "HP");
         }
         if (other.tag == "jiaHP")
         {
             Destroy(other.gameObject);
             hp = 100;
+            HeartControl.heart = 100;
             print("+HP");
         }
         if (hp <= 0)
