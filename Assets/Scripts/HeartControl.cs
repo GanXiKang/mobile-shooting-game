@@ -6,6 +6,8 @@ using UnityEngine.UI;
 public class HeartControl : MonoBehaviour
 {
     public static float heart = 100;
+    public static float LV3TotalHeart = 0;
+    public static float LV4TotalHeart = 0;
     public Text heartText;
     public GameObject LoseText;
     public GameObject RestartText;
