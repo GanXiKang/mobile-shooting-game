@@ -1997,6 +1997,7 @@ MonoBehaviour:
   heartText: {fileID: 2117602932}
   LoseText: {fileID: 1746286095}
   RestartText: {fileID: 2019986181}
+  Player: {fileID: 888054991}
 --- !u!114 &689524214
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2900,6 +2901,11 @@ Transform:
   m_Father: {fileID: 660703579}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!1 &888054991 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6890982093996994014, guid: 9e2fc4172778247bdbc295bf4e68ef79, type: 3}
+  m_PrefabInstance: {fileID: 6890982092515830291}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0

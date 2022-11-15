@@ -7,6 +7,13 @@ public class HP : MonoBehaviour
     void Update()
     {
         transform.Rotate(0, 25 * Time.deltaTime, 0);
-        transform.position = new Vector3(transform.position.x, 1f, transform.position.z);
+    }
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.tag == "Collect")
+        {
+            Destroy(gameObject);
+            HeartControl.heart = 100;
+        }
     }
 }

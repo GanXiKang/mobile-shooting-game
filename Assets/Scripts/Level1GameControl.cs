@@ -12,7 +12,7 @@ public class Level1GameControl : MonoBehaviour
         if (enemys.Length == 0)
         {
             SceneManager.LoadScene(2);
-            CoinScore.LV1TotalScore = CoinScore.Score;
+            CoinScore.TotalScore = CoinScore.Score;
         }
         if (Input.GetKey("f1"))
         {

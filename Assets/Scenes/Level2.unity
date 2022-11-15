@@ -4805,6 +4805,7 @@ GameObject:
   - component: {fileID: 1482492586}
   - component: {fileID: 1482492585}
   - component: {fileID: 1482492589}
+  - component: {fileID: 1482492590}
   m_Layer: 0
   m_Name: Transmission2
   m_TagString: Untagged
@@ -4898,7 +4899,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1482492584}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fd7c37e8bfd0932449943beacdb902b9, type: 3}
   m_Name: 
@@ -4906,6 +4907,22 @@ MonoBehaviour:
   transm: {fileID: 1496416740}
   player: {fileID: 387472099}
   teleportText: {fileID: 53843238}
+--- !u!114 &1482492590
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1482492584}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 35da8ac22fe95aa48831d959c6e68277, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 1496416740}
+  player: {fileID: 387472099}
+  timer: 0
+  timeperiod: 1
 --- !u!1 &1484504484
 GameObject:
   m_ObjectHideFlags: 0
@@ -5064,6 +5081,7 @@ MonoBehaviour:
   heartText: {fileID: 2024234829}
   LoseText: {fileID: 1006404372}
   RestartText: {fileID: 654132511}
+  Player: {fileID: 6890982092515830292}
 --- !u!114 &1490363375
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5090,6 +5108,7 @@ GameObject:
   - component: {fileID: 1496416738}
   - component: {fileID: 1496416737}
   - component: {fileID: 1496416741}
+  - component: {fileID: 1496416742}
   m_Layer: 0
   m_Name: Transmission1
   m_TagString: Untagged
@@ -5183,7 +5202,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1496416736}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fd7c37e8bfd0932449943beacdb902b9, type: 3}
   m_Name: 
@@ -5191,6 +5210,22 @@ MonoBehaviour:
   transm: {fileID: 1482492588}
   player: {fileID: 387472099}
   teleportText: {fileID: 53843238}
+--- !u!114 &1496416742
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1496416736}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 35da8ac22fe95aa48831d959c6e68277, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 1482492588}
+  player: {fileID: 387472099}
+  timer: 0
+  timeperiod: 1
 --- !u!1001 &1517626841
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6475,10 +6510,6 @@ PrefabInstance:
       propertyPath: joyStick
       value: 
       objectReference: {fileID: 589916756}
-    - target: {fileID: 6890982093996993984, guid: 9e2fc4172778247bdbc295bf4e68ef79, type: 3}
-      propertyPath: bulletPrefab
-      value: 
-      objectReference: {fileID: 4098809035968519479, guid: a2a122e6bdd5b5c43a3e3737cc87c605, type: 3}
     - target: {fileID: 6890982093996993985, guid: 9e2fc4172778247bdbc295bf4e68ef79, type: 3}
       propertyPath: m_RootOrder
       value: 4
@@ -6527,12 +6558,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
-    - target: {fileID: 6890982093996994014, guid: 9e2fc4172778247bdbc295bf4e68ef79, type: 3}
-      propertyPath: m_TagString
-      value: Player
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9e2fc4172778247bdbc295bf4e68ef79, type: 3}
+--- !u!1 &6890982092515830292 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6890982093996994014, guid: 9e2fc4172778247bdbc295bf4e68ef79, type: 3}
+  m_PrefabInstance: {fileID: 6890982092515830291}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &7449484675456419160
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -2201,6 +2201,7 @@ MonoBehaviour:
   heartText: {fileID: 1256697850}
   LoseText: {fileID: 0}
   RestartText: {fileID: 0}
+  Player: {fileID: 6890982092515830292}
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -5651,10 +5652,6 @@ PrefabInstance:
       propertyPath: joyStick
       value: 
       objectReference: {fileID: 1610471561}
-    - target: {fileID: 6890982093996993984, guid: 9e2fc4172778247bdbc295bf4e68ef79, type: 3}
-      propertyPath: bulletPrefab
-      value: 
-      objectReference: {fileID: 4098809035968519479, guid: a2a122e6bdd5b5c43a3e3737cc87c605, type: 3}
     - target: {fileID: 6890982093996993985, guid: 9e2fc4172778247bdbc295bf4e68ef79, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -5703,12 +5700,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
-    - target: {fileID: 6890982093996994014, guid: 9e2fc4172778247bdbc295bf4e68ef79, type: 3}
-      propertyPath: m_TagString
-      value: Player
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9e2fc4172778247bdbc295bf4e68ef79, type: 3}
+--- !u!1 &6890982092515830292 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6890982093996994014, guid: 9e2fc4172778247bdbc295bf4e68ef79, type: 3}
+  m_PrefabInstance: {fileID: 6890982092515830291}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &7449484675456419160
 PrefabInstance:
   m_ObjectHideFlags: 0

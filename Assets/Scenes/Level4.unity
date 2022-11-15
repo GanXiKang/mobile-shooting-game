@@ -1388,6 +1388,7 @@ MonoBehaviour:
   heartText: {fileID: 1368713518}
   LoseText: {fileID: 1600293063}
   RestartText: {fileID: 2116768413}
+  Player: {fileID: 6890982092515830292}
 --- !u!1001 &697048796
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4343,6 +4344,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9e2fc4172778247bdbc295bf4e68ef79, type: 3}
+--- !u!1 &6890982092515830292 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6890982093996994014, guid: 9e2fc4172778247bdbc295bf4e68ef79, type: 3}
+  m_PrefabInstance: {fileID: 6890982092515830291}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &7449484675456419160
 PrefabInstance:
   m_ObjectHideFlags: 0

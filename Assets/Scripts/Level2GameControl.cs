@@ -12,13 +12,13 @@ public class Level2GameControl : MonoBehaviour
         if (enemys.Length == 0)
         {
             SceneManager.LoadScene(3);
-            CoinScore.LV2TotalScore = CoinScore.Score;
+            CoinScore.TotalScore = CoinScore.Score;
         }
         if (Input.GetKey("f1"))
         {
             SceneManager.LoadScene(2);
             HeartControl.heart = 100;
-            CoinScore.Score = CoinScore.LV1TotalScore;
+            CoinScore.Score = CoinScore.TotalScore;
         }
     }
 }

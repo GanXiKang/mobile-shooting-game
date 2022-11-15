@@ -13,10 +13,11 @@ public class Player : MonoBehaviour
     private CharacterController controller;
     private GameObject focusEnemy;
 
-    private float hp = 100;
+    public float hp;
 
     void Start()
     {
+        hp = HeartControl.heart;
         controller = GetComponent<CharacterController>();
 
         // 開始一直射擊的 Coroutine 函式
@@ -105,32 +106,18 @@ public class Player : MonoBehaviour
     {
         if (other.tag == "EnemyBullet")
         {
-            hp -= EnemyBullet.atk;
             HeartControl.heart -= EnemyBullet.atk;
             Destroy(other.gameObject);
         }
         if (other.tag == "BossBullet")
         {
-            hp -= BossBullet.atk;
             HeartControl.heart -= BossBullet.atk;
             Destroy(other.gameObject);
         }
         if (other.tag == "trap")
         {
             int a = Random.Range(8, 12);
-            hp -= a;
             HeartControl.heart -= a;
-        }
-        if (other.tag == "jiaHP")
-        {
-            Destroy(other.gameObject);
-            hp = 100;
-            HeartControl.heart = 100;
-            print("+HP");
-        }
-        if (hp <= 0)
-        {
-            gameObject.SetActive(false);
         }
     }
 }
