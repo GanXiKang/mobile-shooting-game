@@ -4805,7 +4805,6 @@ GameObject:
   - component: {fileID: 1482492586}
   - component: {fileID: 1482492585}
   - component: {fileID: 1482492589}
-  - component: {fileID: 1482492590}
   m_Layer: 0
   m_Name: Transmission2
   m_TagString: Untagged
@@ -4899,7 +4898,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1482492584}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fd7c37e8bfd0932449943beacdb902b9, type: 3}
   m_Name: 
@@ -4907,22 +4906,6 @@ MonoBehaviour:
   transm: {fileID: 1496416740}
   player: {fileID: 387472099}
   teleportText: {fileID: 53843238}
---- !u!114 &1482492590
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1482492584}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 35da8ac22fe95aa48831d959c6e68277, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  target: {fileID: 1496416740}
-  player: {fileID: 387472099}
-  timer: 0
-  timeperiod: 1
 --- !u!1 &1484504484
 GameObject:
   m_ObjectHideFlags: 0
@@ -5108,7 +5091,6 @@ GameObject:
   - component: {fileID: 1496416738}
   - component: {fileID: 1496416737}
   - component: {fileID: 1496416741}
-  - component: {fileID: 1496416742}
   m_Layer: 0
   m_Name: Transmission1
   m_TagString: Untagged
@@ -5202,7 +5184,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1496416736}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fd7c37e8bfd0932449943beacdb902b9, type: 3}
   m_Name: 
@@ -5210,22 +5192,6 @@ MonoBehaviour:
   transm: {fileID: 1482492588}
   player: {fileID: 387472099}
   teleportText: {fileID: 53843238}
---- !u!114 &1496416742
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1496416736}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 35da8ac22fe95aa48831d959c6e68277, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  target: {fileID: 1482492588}
-  player: {fileID: 387472099}
-  timer: 0
-  timeperiod: 1
 --- !u!1001 &1517626841
 PrefabInstance:
   m_ObjectHideFlags: 0
