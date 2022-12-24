@@ -1,14 +1,12 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
+
 public class Portals_T : MonoBehaviour
 {
     public Transform transm;
     public GameObject transmActive;
     public Transform player;
-
-    public GameObject teleportText;
 
     bool istransm;
 
@@ -17,15 +15,6 @@ public class Portals_T : MonoBehaviour
         if (istransm == true)
         {
             StartCoroutine(TimePeriod());
-            //teleportText.SetActive(true);
-            //if (Input.GetKey("t"))
-            //{
-            //    player.transform.position = transm.transform.position;
-            //}
-        }
-        if (istransm == false)
-        {
-            teleportText.SetActive(false);
         }
     }
     private void OnTriggerEnter(Collider other)
@@ -46,7 +35,7 @@ public class Portals_T : MonoBehaviour
     {
         player.transform.position = transm.transform.position;
         transmActive.SetActive(false);
-        yield return new WaitForSeconds(2f);
+        yield return new WaitForSeconds(1.5f);
         transmActive.SetActive(true);
     }
 }
