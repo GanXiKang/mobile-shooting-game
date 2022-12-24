@@ -5,6 +5,7 @@ using UnityEngine.UI;
 public class Portals_T : MonoBehaviour
 {
     public Transform transm;
+    public GameObject transmActive;
     public Transform player;
 
     public GameObject teleportText;
@@ -15,11 +16,12 @@ public class Portals_T : MonoBehaviour
     {
         if (istransm == true)
         {
-            teleportText.SetActive(true);
-            if (Input.GetKey("t"))
-            {
-                player.transform.position = transm.transform.position;
-            }
+            StartCoroutine(TimePeriod());
+            //teleportText.SetActive(true);
+            //if (Input.GetKey("t"))
+            //{
+            //    player.transform.position = transm.transform.position;
+            //}
         }
         if (istransm == false)
         {
@@ -39,5 +41,12 @@ public class Portals_T : MonoBehaviour
         {
             istransm = false;
         }
+    }
+    IEnumerator TimePeriod() 
+    {
+        player.transform.position = transm.transform.position;
+        transmActive.SetActive(false);
+        yield return new WaitForSeconds(2f);
+        transmActive.SetActive(true);
     }
 }
