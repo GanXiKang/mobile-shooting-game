@@ -17,6 +17,8 @@ TagManager:
   - BossBullet
   - CoinCollect
   - Collect
+  - Portals_A
+  - Portals_B
   layers:
   - Default
   - TransparentFX
