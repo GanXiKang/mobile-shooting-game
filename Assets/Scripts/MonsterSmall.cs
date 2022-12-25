@@ -3,15 +3,12 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class Monster : MonoBehaviour
+public class MonsterSmall : MonoBehaviour
 {
-    private float hp = 100f;
-    private float maxHP = 100f;
+    private float hp = 75f;
 
     public GameObject enemyBullet;
     public GameObject enemySmall;
-    public GameObject hpBar;
-    public Image hpRed;
 
     public Transform enemyPoint;
     public Transform enemyFirePoint;
@@ -23,10 +20,6 @@ public class Monster : MonoBehaviour
 
     void Update()
     {
-        Vector3 offset = new Vector3(0, 100, 0);
-        Vector3 p = Camera.main.WorldToScreenPoint(transform.position);
-        hpBar.transform.position = p + offset;
-
         timer += Time.deltaTime;
 
         if (timer >= timePeriod)
@@ -45,17 +38,12 @@ public class Monster : MonoBehaviour
             Destroy(other.gameObject);
 
             hp -= Bullet.atk;
-            float sx = hp / maxHP;
-            hpRed.rectTransform.localScale = new Vector3(sx, 1, 1);
+            
             if (hp <= 0)
             {
-                hpBar.SetActive(false);
                 Destroy(gameObject);
-                CoinScore.Score += 3;
-                Instantiate(enemySmall, enemyPoint.transform.position + new Vector3(1f, 0, 0), transform.rotation);
-                Instantiate(enemySmall, enemyPoint.transform.position + new Vector3(-1f, 0, 0), transform.rotation);
+                CoinScore.Score += 2;
             }
         }
     }
 }
-
