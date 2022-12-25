@@ -35,13 +35,13 @@ public class Monster : MonoBehaviour
 
         timer += Time.deltaTime;
 
-        Chase();
-
         if (timer >= timePeriod)
         {
             Instantiate(enemyBullet, enemyFirePoint.transform.position, transform.rotation);
             timer = 0;
         }
+
+        Chase();
     }
     private void OnTriggerEnter(Collider other)
     {
