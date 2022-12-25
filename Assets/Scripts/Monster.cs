@@ -35,13 +35,13 @@ public class Monster : MonoBehaviour
 
         timer += Time.deltaTime;
 
+        Chase();
+
         if (timer >= timePeriod)
         {
             Instantiate(enemyBullet, enemyFirePoint.transform.position, transform.rotation);
             timer = 0;
         }
-
-        agent.SetDestination(target.transform.position);
     }
     private void OnTriggerEnter(Collider other)
     {
@@ -61,6 +61,10 @@ public class Monster : MonoBehaviour
                 Instantiate(enemySmall, enemyPoint.transform.position + new Vector3(-1f, 0, 0), transform.rotation);
             }
         }
+    }
+    void Chase() 
+    {
+        agent.SetDestination(target.transform.position);
     }
 }
 
