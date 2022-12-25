@@ -6,8 +6,8 @@ using UnityEngine.AI;
 
 public class Boss : MonoBehaviour
 {
-    private float hp = 400f;
-    private float hpMax = 400f;
+    private float hp = 350f;
+    private float hpMax = 350f;
     private NavMeshAgent agent;
 
     public GameObject enemyBullet;

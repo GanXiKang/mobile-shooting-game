@@ -695,7 +695,7 @@ MonoBehaviour:
   enemyFirePoint2: {fileID: 1778169274}
   timer: 0
   timePeriod: 0.7
-  chaseDistance: 24
+  chaseDistance: 25
   attackDistance: 20
 --- !u!1 &489509832
 GameObject:
@@ -2329,14 +2329,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1088003147, guid: 19568d57cde4e0b46b4fd7e16652411c, type: 3}
-      propertyPath: target
-      value: 
-      objectReference: {fileID: 387472099}
-    - target: {fileID: 1088003147, guid: 19568d57cde4e0b46b4fd7e16652411c, type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 168856881545491931, guid: 19568d57cde4e0b46b4fd7e16652411c, type: 3}
       propertyPath: m_Name
       value: Boss
@@ -2347,7 +2339,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3858752723951894105, guid: 19568d57cde4e0b46b4fd7e16652411c, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.3
+      value: -4.8
       objectReference: {fileID: 0}
     - target: {fileID: 3858752723951894105, guid: 19568d57cde4e0b46b4fd7e16652411c, type: 3}
       propertyPath: m_LocalPosition.y
@@ -2355,7 +2347,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3858752723951894105, guid: 19568d57cde4e0b46b4fd7e16652411c, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 24.3
+      value: 23.6
       objectReference: {fileID: 0}
     - target: {fileID: 3858752723951894105, guid: 19568d57cde4e0b46b4fd7e16652411c, type: 3}
       propertyPath: m_LocalRotation.w
@@ -2385,8 +2377,7 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 1088003147, guid: 19568d57cde4e0b46b4fd7e16652411c, type: 3}
+    m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 19568d57cde4e0b46b4fd7e16652411c, type: 3}
 --- !u!4 &1691292342 stripped
 Transform:
