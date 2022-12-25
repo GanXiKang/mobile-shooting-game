@@ -2,13 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-using UnityEngine.AI;
 
 public class Monster : MonoBehaviour
 {
     private float hp = 100f;
     private float maxHP = 100f;
-    private NavMeshAgent agent;
 
     public GameObject enemyBullet;
     public GameObject enemySmall;
@@ -22,11 +20,6 @@ public class Monster : MonoBehaviour
     public static float speed = 5f;
     public float timer = 0;
     public float timePeriod = 1f;
-
-    void Start()
-    {
-        agent = GetComponent<NavMeshAgent>();
-    }
     void Update()
     {
         Vector3 offset = new Vector3(0, 100, 0);
@@ -40,8 +33,6 @@ public class Monster : MonoBehaviour
             Instantiate(enemyBullet, enemyFirePoint.transform.position, transform.rotation);
             timer = 0;
         }
-
-        Chase();
     }
     private void OnTriggerEnter(Collider other)
     {
@@ -61,10 +52,6 @@ public class Monster : MonoBehaviour
                 Instantiate(enemySmall, enemyPoint.transform.position + new Vector3(-1f, 0, 0), transform.rotation);
             }
         }
-    }
-    void Chase() 
-    {
-        agent.SetDestination(target.transform.position);
     }
 }
 
