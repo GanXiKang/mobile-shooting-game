@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class Monster : MonoBehaviour
 {
-    private float hp = 100f;
+    public static float hp = 100f;
+    public static float maxHP = 100f;
 
     public GameObject enemyBullet;
     public GameObject enemySmall;
