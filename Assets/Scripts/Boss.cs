@@ -77,10 +77,12 @@ public class Boss : MonoBehaviour
     }
     void Chase()
     {
-        var tr = Quaternion.LookRotation(player.transform.position - transform.position);
-        transform.rotation = Quaternion.Slerp(tr, transform.rotation, speed * Time.deltaTime);
+        //var tr = Quaternion.LookRotation(player.transform.position - transform.position);
+        //transform.rotation = Quaternion.Slerp(tr, transform.rotation, speed * Time.deltaTime);
 
-        transform.position += transform.forward * speed * Time.deltaTime;
+        //transform.position += transform.forward * speed * Time.deltaTime;
+
+        agent.SetDestination(player.transform.position);
     }
     void Attack()
     {
