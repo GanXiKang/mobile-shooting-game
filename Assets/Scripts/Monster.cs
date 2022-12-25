@@ -2,11 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.AI;
 
 public class Monster : MonoBehaviour
 {
     private float hp = 100f;
     private float maxHP = 100f;
+    private NavMeshAgent agent;
 
     public GameObject enemyBullet;
     public GameObject enemySmall;
@@ -21,6 +23,10 @@ public class Monster : MonoBehaviour
     public float timer = 0;
     public float timePeriod = 1f;
 
+    void Start()
+    {
+        agent = GetComponent<NavMeshAgent>();
+    }
     void Update()
     {
         Vector3 offset = new Vector3(0, 100, 0);
@@ -35,8 +41,7 @@ public class Monster : MonoBehaviour
             timer = 0;
         }
 
-        var tr = Quaternion.LookRotation(target.transform.position - transform.position);
-        transform.rotation = Quaternion.Slerp(tr, transform.rotation, speed * Time.deltaTime);
+        agent.SetDestination(target.transform.position);
     }
     private void OnTriggerEnter(Collider other)
     {

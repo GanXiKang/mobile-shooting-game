@@ -74,9 +74,7 @@ GameObject:
   - component: {fileID: 6260057532286570178}
   - component: {fileID: 5835117071047043007}
   - component: {fileID: 2678992742964379341}
-  - component: {fileID: 7390250870346157895}
   - component: {fileID: 2099649106}
-  - component: {fileID: 1088003147}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Enemy
@@ -166,24 +164,6 @@ CapsuleCollider:
   m_Height: 2
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
---- !u!143 &7390250870346157895
-CharacterController:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 168856881545491931}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Height: 2
-  m_Radius: 0.5
-  m_SlopeLimit: 45
-  m_StepOffset: 0.3
-  m_SkinWidth: 0.08
-  m_MinMoveDistance: 0.001
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &2099649106
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -198,25 +178,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemyBullet: {fileID: 0}
   enemySmall: {fileID: 0}
+  hpBar: {fileID: 0}
+  hpRed: {fileID: 0}
   enemyPoint: {fileID: 206050677}
   enemyFirePoint: {fileID: 1356887519}
   target: {fileID: 0}
   timer: 0
   timePeriod: 1
---- !u!114 &1088003147
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 168856881545491931}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 504c06bc6c8e317419b2ff3ed01390f1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  target: {fileID: 0}
-  speed: 5
 --- !u!1 &3802069690935823685
 GameObject:
   m_ObjectHideFlags: 0
