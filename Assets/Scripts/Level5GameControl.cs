@@ -5,9 +5,6 @@ using UnityEngine.SceneManagement;
 
 public class Level5GameControl : MonoBehaviour
 {
-
-
-    // Update is called once per frame
     void Update()
     {
         GameObject[] enemys = GameObject.FindGameObjectsWithTag("Enemy");
