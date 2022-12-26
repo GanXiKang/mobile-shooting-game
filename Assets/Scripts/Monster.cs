@@ -13,6 +13,9 @@ public class Monster : MonoBehaviour
     public GameObject hpBar;
     public Image hpRed;
 
+    public AudioSource bGM;
+    public AudioClip defeat;
+
     public Transform enemyPoint;
     public Transform enemyFirePoint;
     public Transform target;
@@ -47,6 +50,7 @@ public class Monster : MonoBehaviour
             {
                 hpBar.SetActive(false);
                 Destroy(gameObject);
+                bGM.PlayOneShot(defeat);
                 CoinScore.Score += 3;
                 Instantiate(enemySmall, enemyPoint.transform.position + new Vector3(1f, 0, 0), transform.rotation);
                 Instantiate(enemySmall, enemyPoint.transform.position + new Vector3(-1f, 0, 0), transform.rotation);

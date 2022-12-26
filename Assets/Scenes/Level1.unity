@@ -2441,7 +2441,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 70668ddeb6e184863b6c8f3d4398ed93, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.2
+  m_Volume: 0.1
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -3067,6 +3067,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 2099649106, guid: 7253147593ff04020937f085a5695485, type: 3}
+      propertyPath: bGM
+      value: 
+      objectReference: {fileID: 689524214}
+    - target: {fileID: 2099649106, guid: 7253147593ff04020937f085a5695485, type: 3}
       propertyPath: hpBar
       value: 
       objectReference: {fileID: 1755953719}
@@ -3074,6 +3078,10 @@ PrefabInstance:
       propertyPath: hpRed
       value: 
       objectReference: {fileID: 774834497}
+    - target: {fileID: 2099649106, guid: 7253147593ff04020937f085a5695485, type: 3}
+      propertyPath: defeat
+      value: 
+      objectReference: {fileID: 8300000, guid: 4f1ad1a2a4d33484db06895ac4295c80, type: 3}
     - target: {fileID: 2099649106, guid: 7253147593ff04020937f085a5695485, type: 3}
       propertyPath: target
       value: 
@@ -3625,6 +3633,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 2099649106, guid: 7253147593ff04020937f085a5695485, type: 3}
+      propertyPath: bGM
+      value: 
+      objectReference: {fileID: 689524214}
+    - target: {fileID: 2099649106, guid: 7253147593ff04020937f085a5695485, type: 3}
       propertyPath: hpBar
       value: 
       objectReference: {fileID: 1703130939}
@@ -3632,6 +3644,10 @@ PrefabInstance:
       propertyPath: hpRed
       value: 
       objectReference: {fileID: 688148588}
+    - target: {fileID: 2099649106, guid: 7253147593ff04020937f085a5695485, type: 3}
+      propertyPath: defeat
+      value: 
+      objectReference: {fileID: 8300000, guid: 4f1ad1a2a4d33484db06895ac4295c80, type: 3}
     - target: {fileID: 2099649106, guid: 7253147593ff04020937f085a5695485, type: 3}
       propertyPath: target
       value: 
@@ -6236,6 +6252,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 2099649106, guid: 7253147593ff04020937f085a5695485, type: 3}
+      propertyPath: bGM
+      value: 
+      objectReference: {fileID: 689524214}
+    - target: {fileID: 2099649106, guid: 7253147593ff04020937f085a5695485, type: 3}
       propertyPath: hpBar
       value: 
       objectReference: {fileID: 1667241586}
@@ -6243,6 +6263,10 @@ PrefabInstance:
       propertyPath: hpRed
       value: 
       objectReference: {fileID: 1562188567}
+    - target: {fileID: 2099649106, guid: 7253147593ff04020937f085a5695485, type: 3}
+      propertyPath: defeat
+      value: 
+      objectReference: {fileID: 8300000, guid: 4f1ad1a2a4d33484db06895ac4295c80, type: 3}
     - target: {fileID: 2099649106, guid: 7253147593ff04020937f085a5695485, type: 3}
       propertyPath: target
       value: 

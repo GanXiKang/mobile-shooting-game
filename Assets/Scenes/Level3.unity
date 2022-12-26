@@ -131,6 +131,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 2099649106, guid: 7253147593ff04020937f085a5695485, type: 3}
+      propertyPath: bGM
+      value: 
+      objectReference: {fileID: 689524215}
+    - target: {fileID: 2099649106, guid: 7253147593ff04020937f085a5695485, type: 3}
       propertyPath: hpBar
       value: 
       objectReference: {fileID: 1534061271}
@@ -138,6 +142,10 @@ PrefabInstance:
       propertyPath: hpRed
       value: 
       objectReference: {fileID: 832870661}
+    - target: {fileID: 2099649106, guid: 7253147593ff04020937f085a5695485, type: 3}
+      propertyPath: defeat
+      value: 
+      objectReference: {fileID: 8300000, guid: 4f1ad1a2a4d33484db06895ac4295c80, type: 3}
     - target: {fileID: 2099649106, guid: 7253147593ff04020937f085a5695485, type: 3}
       propertyPath: enemyBullet
       value: 
@@ -335,6 +343,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 2099649106, guid: 7253147593ff04020937f085a5695485, type: 3}
+      propertyPath: bGM
+      value: 
+      objectReference: {fileID: 689524215}
+    - target: {fileID: 2099649106, guid: 7253147593ff04020937f085a5695485, type: 3}
       propertyPath: hpBar
       value: 
       objectReference: {fileID: 1766661514}
@@ -342,6 +354,10 @@ PrefabInstance:
       propertyPath: hpRed
       value: 
       objectReference: {fileID: 2056374669}
+    - target: {fileID: 2099649106, guid: 7253147593ff04020937f085a5695485, type: 3}
+      propertyPath: defeat
+      value: 
+      objectReference: {fileID: 8300000, guid: 4f1ad1a2a4d33484db06895ac4295c80, type: 3}
     - target: {fileID: 2099649106, guid: 7253147593ff04020937f085a5695485, type: 3}
       propertyPath: target
       value: 
@@ -751,6 +767,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 2099649106, guid: 7253147593ff04020937f085a5695485, type: 3}
+      propertyPath: bGM
+      value: 
+      objectReference: {fileID: 689524215}
+    - target: {fileID: 2099649106, guid: 7253147593ff04020937f085a5695485, type: 3}
       propertyPath: hpBar
       value: 
       objectReference: {fileID: 1440779888}
@@ -758,6 +778,10 @@ PrefabInstance:
       propertyPath: hpRed
       value: 
       objectReference: {fileID: 1638342373}
+    - target: {fileID: 2099649106, guid: 7253147593ff04020937f085a5695485, type: 3}
+      propertyPath: defeat
+      value: 
+      objectReference: {fileID: 8300000, guid: 4f1ad1a2a4d33484db06895ac4295c80, type: 3}
     - target: {fileID: 2099649106, guid: 7253147593ff04020937f085a5695485, type: 3}
       propertyPath: enemyBullet
       value: 
@@ -1230,6 +1254,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 2099649106, guid: 7253147593ff04020937f085a5695485, type: 3}
+      propertyPath: bGM
+      value: 
+      objectReference: {fileID: 689524215}
+    - target: {fileID: 2099649106, guid: 7253147593ff04020937f085a5695485, type: 3}
       propertyPath: hpBar
       value: 
       objectReference: {fileID: 678165937}
@@ -1237,6 +1265,10 @@ PrefabInstance:
       propertyPath: hpRed
       value: 
       objectReference: {fileID: 174391123}
+    - target: {fileID: 2099649106, guid: 7253147593ff04020937f085a5695485, type: 3}
+      propertyPath: defeat
+      value: 
+      objectReference: {fileID: 8300000, guid: 4f1ad1a2a4d33484db06895ac4295c80, type: 3}
     - target: {fileID: 2099649106, guid: 7253147593ff04020937f085a5695485, type: 3}
       propertyPath: target
       value: 
@@ -1774,6 +1806,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 2099649106, guid: 7253147593ff04020937f085a5695485, type: 3}
+      propertyPath: bGM
+      value: 
+      objectReference: {fileID: 689524215}
+    - target: {fileID: 2099649106, guid: 7253147593ff04020937f085a5695485, type: 3}
       propertyPath: hpBar
       value: 
       objectReference: {fileID: 1569790171}
@@ -1781,6 +1817,10 @@ PrefabInstance:
       propertyPath: hpRed
       value: 
       objectReference: {fileID: 999057026}
+    - target: {fileID: 2099649106, guid: 7253147593ff04020937f085a5695485, type: 3}
+      propertyPath: defeat
+      value: 
+      objectReference: {fileID: 8300000, guid: 4f1ad1a2a4d33484db06895ac4295c80, type: 3}
     - target: {fileID: 2099649106, guid: 7253147593ff04020937f085a5695485, type: 3}
       propertyPath: target
       value: 
@@ -2245,6 +2285,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 2099649106, guid: 7253147593ff04020937f085a5695485, type: 3}
+      propertyPath: bGM
+      value: 
+      objectReference: {fileID: 689524215}
+    - target: {fileID: 2099649106, guid: 7253147593ff04020937f085a5695485, type: 3}
       propertyPath: hpBar
       value: 
       objectReference: {fileID: 735269263}
@@ -2252,6 +2296,10 @@ PrefabInstance:
       propertyPath: hpRed
       value: 
       objectReference: {fileID: 1904082763}
+    - target: {fileID: 2099649106, guid: 7253147593ff04020937f085a5695485, type: 3}
+      propertyPath: defeat
+      value: 
+      objectReference: {fileID: 8300000, guid: 4f1ad1a2a4d33484db06895ac4295c80, type: 3}
     - target: {fileID: 2099649106, guid: 7253147593ff04020937f085a5695485, type: 3}
       propertyPath: enemyBullet
       value: 
@@ -2729,7 +2777,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 16a4a0cb726464a31bc38168e7b0a95a, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.2
+  m_Volume: 0.1
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -3029,6 +3077,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 2099649106, guid: 7253147593ff04020937f085a5695485, type: 3}
+      propertyPath: bGM
+      value: 
+      objectReference: {fileID: 689524215}
+    - target: {fileID: 2099649106, guid: 7253147593ff04020937f085a5695485, type: 3}
       propertyPath: hpBar
       value: 
       objectReference: {fileID: 412351664}
@@ -3036,6 +3088,10 @@ PrefabInstance:
       propertyPath: hpRed
       value: 
       objectReference: {fileID: 719380655}
+    - target: {fileID: 2099649106, guid: 7253147593ff04020937f085a5695485, type: 3}
+      propertyPath: defeat
+      value: 
+      objectReference: {fileID: 8300000, guid: 4f1ad1a2a4d33484db06895ac4295c80, type: 3}
     - target: {fileID: 2099649106, guid: 7253147593ff04020937f085a5695485, type: 3}
       propertyPath: target
       value: 
@@ -3326,6 +3382,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 2099649106, guid: 7253147593ff04020937f085a5695485, type: 3}
+      propertyPath: bGM
+      value: 
+      objectReference: {fileID: 689524215}
+    - target: {fileID: 2099649106, guid: 7253147593ff04020937f085a5695485, type: 3}
       propertyPath: hpBar
       value: 
       objectReference: {fileID: 710447565}
@@ -3333,6 +3393,10 @@ PrefabInstance:
       propertyPath: hpRed
       value: 
       objectReference: {fileID: 2133530794}
+    - target: {fileID: 2099649106, guid: 7253147593ff04020937f085a5695485, type: 3}
+      propertyPath: defeat
+      value: 
+      objectReference: {fileID: 8300000, guid: 4f1ad1a2a4d33484db06895ac4295c80, type: 3}
     - target: {fileID: 2099649106, guid: 7253147593ff04020937f085a5695485, type: 3}
       propertyPath: enemyBullet
       value: 
@@ -3395,6 +3459,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 2099649106, guid: 7253147593ff04020937f085a5695485, type: 3}
+      propertyPath: bGM
+      value: 
+      objectReference: {fileID: 689524215}
+    - target: {fileID: 2099649106, guid: 7253147593ff04020937f085a5695485, type: 3}
       propertyPath: hpBar
       value: 
       objectReference: {fileID: 334678961}
@@ -3402,6 +3470,10 @@ PrefabInstance:
       propertyPath: hpRed
       value: 
       objectReference: {fileID: 1292990651}
+    - target: {fileID: 2099649106, guid: 7253147593ff04020937f085a5695485, type: 3}
+      propertyPath: defeat
+      value: 
+      objectReference: {fileID: 8300000, guid: 4f1ad1a2a4d33484db06895ac4295c80, type: 3}
     - target: {fileID: 2099649106, guid: 7253147593ff04020937f085a5695485, type: 3}
       propertyPath: target
       value: 
@@ -5073,6 +5145,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 2099649106, guid: 7253147593ff04020937f085a5695485, type: 3}
+      propertyPath: bGM
+      value: 
+      objectReference: {fileID: 689524215}
+    - target: {fileID: 2099649106, guid: 7253147593ff04020937f085a5695485, type: 3}
       propertyPath: hpBar
       value: 
       objectReference: {fileID: 1604107716}
@@ -5080,6 +5156,10 @@ PrefabInstance:
       propertyPath: hpRed
       value: 
       objectReference: {fileID: 1609889449}
+    - target: {fileID: 2099649106, guid: 7253147593ff04020937f085a5695485, type: 3}
+      propertyPath: defeat
+      value: 
+      objectReference: {fileID: 8300000, guid: 4f1ad1a2a4d33484db06895ac4295c80, type: 3}
     - target: {fileID: 2099649106, guid: 7253147593ff04020937f085a5695485, type: 3}
       propertyPath: enemyBullet
       value: 
@@ -5472,6 +5552,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 2099649106, guid: 7253147593ff04020937f085a5695485, type: 3}
+      propertyPath: bGM
+      value: 
+      objectReference: {fileID: 689524215}
+    - target: {fileID: 2099649106, guid: 7253147593ff04020937f085a5695485, type: 3}
       propertyPath: hpBar
       value: 
       objectReference: {fileID: 86166214}
@@ -5479,6 +5563,10 @@ PrefabInstance:
       propertyPath: hpRed
       value: 
       objectReference: {fileID: 1946081523}
+    - target: {fileID: 2099649106, guid: 7253147593ff04020937f085a5695485, type: 3}
+      propertyPath: defeat
+      value: 
+      objectReference: {fileID: 8300000, guid: 4f1ad1a2a4d33484db06895ac4295c80, type: 3}
     - target: {fileID: 2099649106, guid: 7253147593ff04020937f085a5695485, type: 3}
       propertyPath: enemyBullet
       value: 
@@ -6180,6 +6268,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 2099649106, guid: 7253147593ff04020937f085a5695485, type: 3}
+      propertyPath: bGM
+      value: 
+      objectReference: {fileID: 689524215}
+    - target: {fileID: 2099649106, guid: 7253147593ff04020937f085a5695485, type: 3}
       propertyPath: hpBar
       value: 
       objectReference: {fileID: 2046946074}
@@ -6187,6 +6279,10 @@ PrefabInstance:
       propertyPath: hpRed
       value: 
       objectReference: {fileID: 344179461}
+    - target: {fileID: 2099649106, guid: 7253147593ff04020937f085a5695485, type: 3}
+      propertyPath: defeat
+      value: 
+      objectReference: {fileID: 8300000, guid: 4f1ad1a2a4d33484db06895ac4295c80, type: 3}
     - target: {fileID: 2099649106, guid: 7253147593ff04020937f085a5695485, type: 3}
       propertyPath: enemyBullet
       value: 
@@ -6755,6 +6851,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 2099649106, guid: 7253147593ff04020937f085a5695485, type: 3}
+      propertyPath: bGM
+      value: 
+      objectReference: {fileID: 689524215}
+    - target: {fileID: 2099649106, guid: 7253147593ff04020937f085a5695485, type: 3}
       propertyPath: hpBar
       value: 
       objectReference: {fileID: 261116787}
@@ -6762,6 +6862,10 @@ PrefabInstance:
       propertyPath: hpRed
       value: 
       objectReference: {fileID: 1487107591}
+    - target: {fileID: 2099649106, guid: 7253147593ff04020937f085a5695485, type: 3}
+      propertyPath: defeat
+      value: 
+      objectReference: {fileID: 8300000, guid: 4f1ad1a2a4d33484db06895ac4295c80, type: 3}
     - target: {fileID: 2099649106, guid: 7253147593ff04020937f085a5695485, type: 3}
       propertyPath: target
       value: 
@@ -7480,6 +7584,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 2099649106, guid: 7253147593ff04020937f085a5695485, type: 3}
+      propertyPath: bGM
+      value: 
+      objectReference: {fileID: 689524215}
+    - target: {fileID: 2099649106, guid: 7253147593ff04020937f085a5695485, type: 3}
       propertyPath: hpBar
       value: 
       objectReference: {fileID: 807342101}
@@ -7487,6 +7595,10 @@ PrefabInstance:
       propertyPath: hpRed
       value: 
       objectReference: {fileID: 246464072}
+    - target: {fileID: 2099649106, guid: 7253147593ff04020937f085a5695485, type: 3}
+      propertyPath: defeat
+      value: 
+      objectReference: {fileID: 8300000, guid: 4f1ad1a2a4d33484db06895ac4295c80, type: 3}
     - target: {fileID: 2099649106, guid: 7253147593ff04020937f085a5695485, type: 3}
       propertyPath: enemyBullet
       value: 
