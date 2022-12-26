@@ -2247,6 +2247,8 @@ MonoBehaviour:
   coin: {fileID: 5708182090643071376, guid: 032cd52ad3768584da446022b411b155, type: 3}
   Hp: {fileID: 0}
   Point: {fileID: 1152263468}
+  bGM: {fileID: 689524215}
+  openBox: {fileID: 8300000, guid: 54230e59114d347d69f8998a31cd8052, type: 3}
 --- !u!65 &544341875
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4460,6 +4462,8 @@ MonoBehaviour:
   coin: {fileID: 5708182090643071376, guid: 032cd52ad3768584da446022b411b155, type: 3}
   Hp: {fileID: 0}
   Point: {fileID: 2109503713}
+  bGM: {fileID: 689524215}
+  openBox: {fileID: 8300000, guid: 54230e59114d347d69f8998a31cd8052, type: 3}
 --- !u!65 &1079458184
 BoxCollider:
   m_ObjectHideFlags: 0

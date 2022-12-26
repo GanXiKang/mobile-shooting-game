@@ -380,6 +380,8 @@ MonoBehaviour:
   coin: {fileID: 5708182090643071376, guid: 032cd52ad3768584da446022b411b155, type: 3}
   Hp: {fileID: 8900657092793634968, guid: d54da54f827340346876a4e30f6a13a1, type: 3}
   Point: {fileID: 1008197188}
+  bGM: {fileID: 689524215}
+  openBox: {fileID: 8300000, guid: 54230e59114d347d69f8998a31cd8052, type: 3}
 --- !u!65 &57688954
 BoxCollider:
   m_ObjectHideFlags: 0

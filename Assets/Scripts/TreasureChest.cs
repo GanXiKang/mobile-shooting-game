@@ -7,6 +7,8 @@ public class TreasureChest : MonoBehaviour
     public GameObject coin;
     public GameObject Hp;
     public GameObject Point;
+    public AudioSource bGM;
+    public AudioClip openBox;
 
     private float hp = 150f;
 
@@ -20,6 +22,7 @@ public class TreasureChest : MonoBehaviour
             if (hp == 0) 
             {
                 Destroy(gameObject);
+                bGM.PlayOneShot(openBox);
                 Instantiate(coin, Point.transform.position, transform.rotation);
                 Instantiate(coin, Point.transform.position + new Vector3(1f,0,0), transform.rotation);
                 Instantiate(coin, Point.transform.position + new Vector3(0, 0, 1f), transform.rotation);

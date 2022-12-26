@@ -689,6 +689,8 @@ MonoBehaviour:
   player: {fileID: 6890982092515830292}
   hpBar: {fileID: 254212382}
   hpRed: {fileID: 107369282}
+  bGM: {fileID: 689524215}
+  defeat: {fileID: 8300000, guid: 4f1ad1a2a4d33484db06895ac4295c80, type: 3}
   enemyFirePoint: {fileID: 1691292342}
   enemyFirePoint1: {fileID: 1594040292}
   enemyFirePoint2: {fileID: 1778169274}
