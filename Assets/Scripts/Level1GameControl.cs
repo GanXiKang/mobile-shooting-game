@@ -14,11 +14,5 @@ public class Level1GameControl : MonoBehaviour
             SceneManager.LoadScene(2);
             CoinScore.TotalScore = CoinScore.Score;
         }
-        if (Input.GetKey("f1"))
-        {
-            SceneManager.LoadScene(1);
-            HeartControl.heart = 100;
-            CoinScore.Score = 0;
-        }
     }
 }

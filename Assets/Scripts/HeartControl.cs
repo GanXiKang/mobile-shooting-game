@@ -6,11 +6,9 @@ using UnityEngine.UI;
 public class HeartControl : MonoBehaviour
 {
     public static float heart = 100;
-    public static float TotalHeart = 0;
+    public static float TotalHeart;
     public Text heartText;
-    public GameObject LoseText;
-    public GameObject RestartText;
-    public GameObject Player;
+    public GameObject died;
 
     void Update()
     {
@@ -19,9 +17,13 @@ public class HeartControl : MonoBehaviour
         if (heart <= 0) 
         {
             heart = 0;
-            LoseText.SetActive(true);
-            RestartText.SetActive(true);
-            Player.SetActive(false);
+            StartCoroutine(DiedTime());
         }
+    }
+    IEnumerator DiedTime()
+    {
+        died.SetActive(true);
+        yield return new WaitForSeconds(2f);
+        died.SetActive(false);
     }
 }

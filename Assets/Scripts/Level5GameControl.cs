@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class Level5GameControl : MonoBehaviour
-{
+{ 
     void Update()
     {
         GameObject[] enemys = GameObject.FindGameObjectsWithTag("Enemy");
@@ -13,11 +13,16 @@ public class Level5GameControl : MonoBehaviour
         {
             SceneManager.LoadScene(6);
         }
-        if (Input.GetKey("f1"))
+        if (HeartControl.heart == 0)
         {
+            StartCoroutine(DiedTime());
+        }
+        IEnumerator DiedTime()
+        {
+            yield return new WaitForSeconds(2f);
             SceneManager.LoadScene(5);
+            HeartControl.heart = 100;
             CoinScore.Score = CoinScore.TotalScore;
-            HeartControl.heart = HeartControl.TotalHeart;
         }
     }
 }

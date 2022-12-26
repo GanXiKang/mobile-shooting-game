@@ -7,6 +7,7 @@ public class Level3GameControl : MonoBehaviour
 {
     void Update()
     {
+
         GameObject[] enemys = GameObject.FindGameObjectsWithTag("Enemy");
 
         if (enemys.Length == 0)
@@ -15,8 +16,13 @@ public class Level3GameControl : MonoBehaviour
             CoinScore.TotalScore = CoinScore.Score;
             HeartControl.TotalHeart = HeartControl.heart;
         }
-        if (Input.GetKey("f1"))
+        if (HeartControl.heart == 0)
         {
+            StartCoroutine(DiedTime());
+        }
+        IEnumerator DiedTime()
+        {
+            yield return new WaitForSeconds(2f);
             SceneManager.LoadScene(3);
             HeartControl.heart = 100;
             CoinScore.Score = CoinScore.TotalScore;

@@ -15,11 +15,5 @@ public class Level4GameControl : MonoBehaviour
             CoinScore.TotalScore = CoinScore.Score;
             HeartControl.TotalHeart = HeartControl.heart;
         }
-        if (Input.GetKey("f1"))
-        {
-            SceneManager.LoadScene(4);
-            CoinScore.Score = CoinScore.TotalScore;
-            HeartControl.heart = HeartControl.TotalHeart; 
-        }
     }
 }

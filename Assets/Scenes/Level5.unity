@@ -1000,9 +1000,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   heartText: {fileID: 2034539297}
-  LoseText: {fileID: 0}
-  RestartText: {fileID: 0}
-  Player: {fileID: 6890982092515830292}
+  died: {fileID: 2138928538}
 --- !u!114 &689524214
 MonoBehaviour:
   m_ObjectHideFlags: 0
