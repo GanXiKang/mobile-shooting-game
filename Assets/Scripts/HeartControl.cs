@@ -10,6 +10,9 @@ public class HeartControl : MonoBehaviour
     public Text heartText;
     public GameObject died;
 
+    public AudioSource bGM;
+    public AudioClip diedAudio;
+
     void Update()
     {
         heartText.text = heart.ToString();
@@ -23,7 +26,8 @@ public class HeartControl : MonoBehaviour
     IEnumerator DiedTime()
     {
         died.SetActive(true);
-        yield return new WaitForSeconds(2f);
+        bGM.PlayOneShot(diedAudio);
+        yield return new WaitForSeconds(5f);
         died.SetActive(false);
     }
 }

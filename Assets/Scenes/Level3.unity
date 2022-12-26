@@ -2754,6 +2754,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   heartText: {fileID: 2117602932}
   died: {fileID: 862228905}
+  bGM: {fileID: 689524215}
+  diedAudio: {fileID: 8300000, guid: 9ac6b2bcf246d41d18e17a29460dbe58, type: 3}
 --- !u!114 &689524214
 MonoBehaviour:
   m_ObjectHideFlags: 0
