@@ -265,6 +265,9 @@ MonoBehaviour:
   joyStick: {fileID: 0}
   firePoint: {fileID: 6890982094051819734}
   bulletPrefab: {fileID: 4098809035968519479, guid: a2a122e6bdd5b5c43a3e3737cc87c605, type: 3}
+  bGM: {fileID: 0}
+  fire: {fileID: 8300000, guid: fed5555b612fe4b578321a843b3b6de3, type: 3}
+  hp: 0
 --- !u!1 &6890982094051819735
 GameObject:
   m_ObjectHideFlags: 0

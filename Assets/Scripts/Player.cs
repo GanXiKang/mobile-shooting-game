@@ -10,6 +10,9 @@ public class Player : MonoBehaviour
     public Transform firePoint;
     public GameObject bulletPrefab;
 
+    public AudioSource bGM;
+    public AudioClip fire;
+
     private CharacterController controller;
     private GameObject focusEnemy;
 
@@ -86,6 +89,7 @@ public class Player : MonoBehaviour
     {
         // 產生出子彈
         Instantiate(bulletPrefab, firePoint.transform.position, transform.rotation);
+        bGM.PlayOneShot(fire);
     }
 
 
