@@ -12,6 +12,9 @@ public class MonsterSmall : MonoBehaviour
     public GameObject enemyBullet;
     public GameObject enemySmall;
 
+    public AudioSource bGM;
+    public AudioClip defeat;
+
     public Transform enemyPoint;
     public Transform enemyFirePoint;
     public Transform target;
@@ -47,6 +50,7 @@ public class MonsterSmall : MonoBehaviour
             if (hp <= 0)
             {
                 Destroy(gameObject);
+                bGM.PlayOneShot(defeat);
                 CoinScore.Score += 2;
             }
         }

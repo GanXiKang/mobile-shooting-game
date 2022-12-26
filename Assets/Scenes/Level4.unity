@@ -1587,7 +1587,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 8b2cdffdf72e84b28877679c9c526ef2, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.25
+  m_Volume: 0.15
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -1679,6 +1679,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 2099649106, guid: 7253147593ff04020937f085a5695485, type: 3}
+      propertyPath: bGM
+      value: 
+      objectReference: {fileID: 689524215}
+    - target: {fileID: 2099649106, guid: 7253147593ff04020937f085a5695485, type: 3}
       propertyPath: hpBar
       value: 
       objectReference: {fileID: 4493131}
@@ -1686,6 +1690,10 @@ PrefabInstance:
       propertyPath: hpRed
       value: 
       objectReference: {fileID: 1545071324}
+    - target: {fileID: 2099649106, guid: 7253147593ff04020937f085a5695485, type: 3}
+      propertyPath: defeat
+      value: 
+      objectReference: {fileID: 8300000, guid: 4f1ad1a2a4d33484db06895ac4295c80, type: 3}
     - target: {fileID: 2099649106, guid: 7253147593ff04020937f085a5695485, type: 3}
       propertyPath: target
       value: 
@@ -1886,6 +1894,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 2099649106, guid: 7253147593ff04020937f085a5695485, type: 3}
+      propertyPath: bGM
+      value: 
+      objectReference: {fileID: 689524215}
+    - target: {fileID: 2099649106, guid: 7253147593ff04020937f085a5695485, type: 3}
       propertyPath: hpBar
       value: 
       objectReference: {fileID: 1659653960}
@@ -1893,6 +1905,10 @@ PrefabInstance:
       propertyPath: hpRed
       value: 
       objectReference: {fileID: 1246340837}
+    - target: {fileID: 2099649106, guid: 7253147593ff04020937f085a5695485, type: 3}
+      propertyPath: defeat
+      value: 
+      objectReference: {fileID: 8300000, guid: 4f1ad1a2a4d33484db06895ac4295c80, type: 3}
     - target: {fileID: 2099649106, guid: 7253147593ff04020937f085a5695485, type: 3}
       propertyPath: target
       value: 
@@ -2776,6 +2792,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 2099649106, guid: 7253147593ff04020937f085a5695485, type: 3}
+      propertyPath: bGM
+      value: 
+      objectReference: {fileID: 689524215}
+    - target: {fileID: 2099649106, guid: 7253147593ff04020937f085a5695485, type: 3}
       propertyPath: hpBar
       value: 
       objectReference: {fileID: 1029731491}
@@ -2783,6 +2803,10 @@ PrefabInstance:
       propertyPath: hpRed
       value: 
       objectReference: {fileID: 2062517829}
+    - target: {fileID: 2099649106, guid: 7253147593ff04020937f085a5695485, type: 3}
+      propertyPath: defeat
+      value: 
+      objectReference: {fileID: 8300000, guid: 4f1ad1a2a4d33484db06895ac4295c80, type: 3}
     - target: {fileID: 2099649106, guid: 7253147593ff04020937f085a5695485, type: 3}
       propertyPath: target
       value: 
@@ -5259,6 +5283,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 2099649106, guid: 7253147593ff04020937f085a5695485, type: 3}
+      propertyPath: bGM
+      value: 
+      objectReference: {fileID: 689524215}
+    - target: {fileID: 2099649106, guid: 7253147593ff04020937f085a5695485, type: 3}
       propertyPath: hpBar
       value: 
       objectReference: {fileID: 1228672668}
@@ -5266,6 +5294,10 @@ PrefabInstance:
       propertyPath: hpRed
       value: 
       objectReference: {fileID: 13764102}
+    - target: {fileID: 2099649106, guid: 7253147593ff04020937f085a5695485, type: 3}
+      propertyPath: defeat
+      value: 
+      objectReference: {fileID: 8300000, guid: 4f1ad1a2a4d33484db06895ac4295c80, type: 3}
     - target: {fileID: 2099649106, guid: 7253147593ff04020937f085a5695485, type: 3}
       propertyPath: target
       value: 

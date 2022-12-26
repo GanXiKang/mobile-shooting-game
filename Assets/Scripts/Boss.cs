@@ -15,6 +15,9 @@ public class Boss : MonoBehaviour
     public GameObject hpBar;
     public Image hpRed;
 
+    public AudioSource bGM;
+    public AudioClip defeat;
+
     public Transform enemyFirePoint;
     public Transform enemyFirePoint1;
     public Transform enemyFirePoint2;
@@ -65,6 +68,7 @@ public class Boss : MonoBehaviour
             {
                 sx = 0;
                 Destroy(gameObject);
+                bGM.PlayOneShot(defeat);
                 CoinScore.Score += 10;
             }
             hpRed.rectTransform.localScale = new Vector3(sx, 1, 1);

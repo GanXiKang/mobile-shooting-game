@@ -146,6 +146,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemyBullet: {fileID: 0}
   enemySmall: {fileID: 0}
+  bGM: {fileID: 0}
+  defeat: {fileID: 8300000, guid: 4f1ad1a2a4d33484db06895ac4295c80, type: 3}
   enemyPoint: {fileID: 0}
   enemyFirePoint: {fileID: 0}
   target: {fileID: 0}
