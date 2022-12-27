@@ -12,6 +12,7 @@ public class Player : MonoBehaviour
 
     public AudioSource bGM;
     public AudioClip fire;
+    public AudioClip hit;
 
     private CharacterController controller;
     private GameObject focusEnemy;
@@ -111,16 +112,19 @@ public class Player : MonoBehaviour
         if (other.tag == "EnemyBullet")
         {
             HeartControl.heart -= EnemyBullet.atk;
+            bGM.PlayOneShot(hit);
             Destroy(other.gameObject);
         }
         if (other.tag == "BossBullet")
         {
             HeartControl.heart -= BossBullet.atk;
+            bGM.PlayOneShot(hit);
             Destroy(other.gameObject);
         }
         if (other.tag == "trap")
         {
             int a = Random.Range(8, 12);
+            bGM.PlayOneShot(hit);
             HeartControl.heart -= a;
         }
     }

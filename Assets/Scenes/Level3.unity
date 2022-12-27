@@ -7521,6 +7521,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 689524215}
     - target: {fileID: 6890982093996993984, guid: 9e2fc4172778247bdbc295bf4e68ef79, type: 3}
+      propertyPath: hit
+      value: 
+      objectReference: {fileID: 8300000, guid: ef3f7321293ed4927ae042b0369b1271, type: 3}
+    - target: {fileID: 6890982093996993984, guid: 9e2fc4172778247bdbc295bf4e68ef79, type: 3}
       propertyPath: joyStick
       value: 
       objectReference: {fileID: 1926031125}
