@@ -10,7 +10,7 @@ public class TreasureChest : MonoBehaviour
     public AudioSource bGM;
     public AudioClip openBox;
 
-    private float hp = 150f;
+    private float hp = 100f;
 
     private void OnTriggerEnter(Collider other)
     {
