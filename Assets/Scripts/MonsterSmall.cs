@@ -9,35 +9,20 @@ public class MonsterSmall : MonoBehaviour
     private float hp = 75f;
     private NavMeshAgent agent;
 
-    public GameObject enemyBullet;
-    public GameObject enemySmall;
-
     public AudioSource bGM;
     public AudioClip defeat;
 
-    public Transform enemyPoint;
-    public Transform enemyFirePoint;
-    public Transform target;
-
-    public static float speed = 5f;
-    public float timer = 0;
-    public float timePeriod = 1f;
+    public GameObject target;
 
     void Start()
     {
         agent = GetComponent<NavMeshAgent>();
+        
+        target = GameObject.Find("Player");
     }
     void Update()
     {
-        timer += Time.deltaTime;
-
         Chase();
-
-        if (timer >= timePeriod)
-        {
-            Instantiate(enemyBullet, enemyFirePoint.transform.position, transform.rotation);
-            timer = 0;
-        }
     }
     private void OnTriggerEnter(Collider other)
     {
