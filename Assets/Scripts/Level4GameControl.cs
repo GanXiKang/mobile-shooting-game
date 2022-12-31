@@ -15,5 +15,16 @@ public class Level4GameControl : MonoBehaviour
             CoinScore.TotalScore = CoinScore.Score;
             HeartControl.TotalHeart = HeartControl.heart;
         }
+        if (HeartControl.heart == 0)
+        {
+            StartCoroutine(DiedTime());
+        }
+        IEnumerator DiedTime()
+        {
+            yield return new WaitForSeconds(2f);
+            SceneManager.LoadScene(4);
+            HeartControl.heart = 100;
+            CoinScore.Score = CoinScore.TotalScore;
+        }
     }
 }
