@@ -8,9 +8,9 @@ public class EnemyMove_WD : MonoBehaviour
 
     void Update()
     {
-        timer++;
+        timer += Time.deltaTime;
 
-        if (timer < 200f)
+        if (timer < 1.5f)
         {
             transform.position = new Vector3(transform.position.x + 3f * Time.deltaTime, transform.position.y, transform.position.z + 3f * Time.deltaTime);
 
@@ -18,7 +18,7 @@ public class EnemyMove_WD : MonoBehaviour
             transform.rotation = Quaternion.Lerp(transform.rotation, targetRotation, 0.3f);
 
         }
-        if (timer > 200f && timer < 400f)
+        if (timer > 1.5f && timer < 3f)
         {
             transform.position = new Vector3(transform.position.x - 3f * Time.deltaTime, transform.position.y, transform.position.z - 3f * Time.deltaTime);
 
@@ -26,7 +26,7 @@ public class EnemyMove_WD : MonoBehaviour
             transform.rotation = Quaternion.Lerp(transform.rotation, targetRotation, 0.3f);
 
         }
-        if (timer > 400f)
+        if (timer > 3f)
         {
             timer = 0;
         }
